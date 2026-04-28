@@ -1,0 +1,170 @@
+Start testing: Apr 28 11:57 UTC
+----------------------------------------------------------
+1/5 Testing: FactorizeTest.HandlesZeroInput
+1/5 Test: FactorizeTest.HandlesZeroInput
+Command: "/home/ubuntu/gtest-demo/build/test_prime" "--gtest_filter=FactorizeTest.HandlesZeroInput" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/gtest-demo/build
+"FactorizeTest.HandlesZeroInput" start time: Apr 28 11:57 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = FactorizeTest.HandlesZeroInput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FactorizeTest
+[ RUN      ] FactorizeTest.HandlesZeroInput
+[       OK ] FactorizeTest.HandlesZeroInput (0 ms)
+[----------] 1 test from FactorizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FactorizeTest.HandlesZeroInput" end time: Apr 28 11:57 UTC
+"FactorizeTest.HandlesZeroInput" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: FactorizeTest.HandlesPrime
+2/5 Test: FactorizeTest.HandlesPrime
+Command: "/home/ubuntu/gtest-demo/build/test_prime" "--gtest_filter=FactorizeTest.HandlesPrime" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/gtest-demo/build
+"FactorizeTest.HandlesPrime" start time: Apr 28 11:57 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = FactorizeTest.HandlesPrime
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FactorizeTest
+[ RUN      ] FactorizeTest.HandlesPrime
+/home/ubuntu/gtest-demo/test_prime.cpp:27: Failure
+Expected equality of these values:
+  factorize(7)
+    Which is: ""
+  "7"
+[  FAILED  ] FactorizeTest.HandlesPrime (0 ms)
+[----------] 1 test from FactorizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] FactorizeTest.HandlesPrime
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"FactorizeTest.HandlesPrime" end time: Apr 28 11:57 UTC
+"FactorizeTest.HandlesPrime" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: FactorizeTest.HandlesPositiveInput
+3/5 Test: FactorizeTest.HandlesPositiveInput
+Command: "/home/ubuntu/gtest-demo/build/test_prime" "--gtest_filter=FactorizeTest.HandlesPositiveInput" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/gtest-demo/build
+"FactorizeTest.HandlesPositiveInput" start time: Apr 28 11:57 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = FactorizeTest.HandlesPositiveInput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FactorizeTest
+[ RUN      ] FactorizeTest.HandlesPositiveInput
+/home/ubuntu/gtest-demo/test_prime.cpp:31: Failure
+Expected equality of these values:
+  factorize(2)
+    Which is: ""
+  "2"
+/home/ubuntu/gtest-demo/test_prime.cpp:32: Failure
+Expected equality of these values:
+  factorize(3)
+    Which is: ""
+  "3"
+/home/ubuntu/gtest-demo/test_prime.cpp:33: Failure
+Expected equality of these values:
+  factorize(6)
+    Which is: "2"
+  "2 3"
+[  FAILED  ] FactorizeTest.HandlesPositiveInput (0 ms)
+[----------] 1 test from FactorizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] FactorizeTest.HandlesPositiveInput
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"FactorizeTest.HandlesPositiveInput" end time: Apr 28 11:57 UTC
+"FactorizeTest.HandlesPositiveInput" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: FactorizeTest.HandlesPowerOfPrime
+4/5 Test: FactorizeTest.HandlesPowerOfPrime
+Command: "/home/ubuntu/gtest-demo/build/test_prime" "--gtest_filter=FactorizeTest.HandlesPowerOfPrime" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/gtest-demo/build
+"FactorizeTest.HandlesPowerOfPrime" start time: Apr 28 11:57 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = FactorizeTest.HandlesPowerOfPrime
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FactorizeTest
+[ RUN      ] FactorizeTest.HandlesPowerOfPrime
+[       OK ] FactorizeTest.HandlesPowerOfPrime (0 ms)
+[----------] 1 test from FactorizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FactorizeTest.HandlesPowerOfPrime" end time: Apr 28 11:57 UTC
+"FactorizeTest.HandlesPowerOfPrime" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: FactorizeTest.HandlesLargeNumber
+5/5 Test: FactorizeTest.HandlesLargeNumber
+Command: "/home/ubuntu/gtest-demo/build/test_prime" "--gtest_filter=FactorizeTest.HandlesLargeNumber" "--gtest_also_run_disabled_tests"
+Directory: /home/ubuntu/gtest-demo/build
+"FactorizeTest.HandlesLargeNumber" start time: Apr 28 11:57 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = FactorizeTest.HandlesLargeNumber
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FactorizeTest
+[ RUN      ] FactorizeTest.HandlesLargeNumber
+/home/ubuntu/gtest-demo/test_prime.cpp:40: Failure
+Expected equality of these values:
+  factorize(210)
+    Which is: "2 3 5"
+  "2 3 5 7"
+[  FAILED  ] FactorizeTest.HandlesLargeNumber (0 ms)
+[----------] 1 test from FactorizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] FactorizeTest.HandlesLargeNumber
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"FactorizeTest.HandlesLargeNumber" end time: Apr 28 11:57 UTC
+"FactorizeTest.HandlesLargeNumber" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 28 11:57 UTC

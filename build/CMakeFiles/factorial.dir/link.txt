@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/factorial.dir/test_prime.cpp.o -o factorial  libfactorial_lib.a 

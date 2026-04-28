@@ -1,0 +1,45 @@
+#include <gtest/gtest.h>
+#include <string>
+using namespace std;
+
+string factorize(int n) {
+   string result = "";
+
+   for (int i = 2; i <= n; i++) {
+      while (n % i == 0) {
+         result += to_string(i) + " ";
+            n /= i;
+      }
+   }
+
+if (!result.empty()) {
+result.pop_back();
+}
+
+return result;
+}
+
+TEST(FactorizeTest, HandlesZeroInput){
+   EXPECT_EQ(factorize(0), "");
+}
+
+TEST(FactorizeTest, HandlesPrime){
+   EXPECT_EQ(factorize(7), "7");
+}
+
+TEST(FactorizeTest, HandlesPositiveInput){
+   EXPECT_EQ(factorize(2), "2");
+   EXPECT_EQ(factorize(3), "3");
+   EXPECT_EQ(factorize(6), "2 3");
+}
+
+TEST(FactorizeTest, HandlesPowerOfPrime){
+   EXPECT_EQ(factorize(32), "2 2 2 2 2");
+}
+TEST(FactorizeTest, HandlesLargeNumber){
+    EXPECT_EQ(factorize(210), "2 3 5 7");
+}
+int main(int argc, char **argv) {
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
+}

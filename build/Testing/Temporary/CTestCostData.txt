@@ -1,0 +1,10 @@
+test_prime_NOT_BUILT 0 0
+FactorizeTest.HandlesZeroInput 2 0.00115265
+FactorizeTest.HandlesPrime 3 0
+FactorizeTest.HandlesPositiveInput 1 0
+FactorizeTest.HandlesPowerOfPrime 4 0.000337901
+FactorizeTest.HandlesLargeNumber 3 0
+---
+FactorizeTest.HandlesPrime
+FactorizeTest.HandlesPositiveInput
+FactorizeTest.HandlesLargeNumber

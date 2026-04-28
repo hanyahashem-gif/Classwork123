@@ -1,0 +1,4 @@
+/home/ubuntu/gtest-demo/build/CMakeFiles/test_prime.dir
+/home/ubuntu/gtest-demo/build/CMakeFiles/test.dir
+/home/ubuntu/gtest-demo/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/gtest-demo/build/CMakeFiles/rebuild_cache.dir

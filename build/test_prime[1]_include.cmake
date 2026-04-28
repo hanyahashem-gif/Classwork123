@@ -1,0 +1,5 @@
+if(EXISTS "/home/ubuntu/gtest-demo/build/test_prime[1]_tests.cmake")
+  include("/home/ubuntu/gtest-demo/build/test_prime[1]_tests.cmake")
+else()
+  add_test(test_prime_NOT_BUILT test_prime_NOT_BUILT)
+endif()
